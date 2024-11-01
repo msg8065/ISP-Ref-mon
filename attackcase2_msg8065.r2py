@@ -28,5 +28,5 @@ def file_check(myfile):
 		log("File storage is not handled properly!")
 
 # testcase - invalid write operation
-myfile.writeat("Sattack1337", 0)
+myfile.writeat("msg8065", 0)
 file_check(myfile)
